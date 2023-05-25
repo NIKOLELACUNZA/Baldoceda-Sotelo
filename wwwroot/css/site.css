@@ -1,0 +1,608 @@
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+:root {
+  --blanco: #fff;
+  --negro: #111111;
+  --gris: #343a40;
+
+  --fuentePrincipal: "Raleway", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--fuentePrincipal);
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+h1,
+h2,
+h3 {
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 1rem 0 4rem 0;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+h2 {
+  font-size: 5.8rem;
+}
+h3 {
+  font-size: 5rem;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 90%;
+}
+.btn {
+  color: var(--gris);
+  background-color: var(--blanco);
+  border: 1px solid var(--gris);
+  padding: 0.5rem 2rem;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: var(--gris);
+  color: var(--blanco);
+}
+
+/** Utilidades **/
+.text-center {
+  text-align: center;
+}
+.mt-5 {
+  margin-top: 5rem;
+}
+
+/** Header */
+.header {
+  min-height: 60rem;
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+}
+
+.content-header {
+  display: flex;
+  flex-direction: column;
+  height: calc(60rem - 4rem);
+  justify-content: space-between;
+  color: var(--blanco);
+}
+
+.site-name {
+  font-weight: 300;
+  text-align: center;
+  font-size: 3rem;
+  color: var(--blanco);
+}
+@media (min-width: 992px) {
+  .site-name {
+    font-size: 5rem;
+  }
+}
+
+.site-name span {
+  font-weight: 900;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .contact {
+    align-items: flex-end;
+  }
+}
+
+.phone {
+  display: flex;
+  color: var(--blanco);
+}
+
+.phone::before {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  background-image: url(../img/telefono.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 1rem;
+}
+
+.link {
+  color: var(--blanco);
+  font-size: 2rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+@media (min-width: 992px) {
+  .navigation {
+    flex-direction: row;
+  }
+}
+.navigation a {
+  padding: 0.5rem;
+  transition: background-color 300ms;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .navigation a {
+    padding: 1rem 2rem;
+  }
+}
+.navigation a:hover {
+  background-color: rgb(255 255 255 / 0.5);
+  color: var(--negro);
+}
+
+.slogan {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .slogan {
+    text-align: right;
+  }
+}
+.slogan h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+@media (min-width: 992px) {
+  .slogan h1 {
+    font-size: 5rem;
+  }
+}
+.slogan p {
+  margin: 0;
+  line-height: 1;
+}
+
+/** Nosotros **/
+.about {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  background-image: url(../img/slogan2.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+@media (min-width: 992px) {
+  .about {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.content-about {
+  background-color: var(--blanco);
+  padding: 5rem;
+}
+@media (min-width: 992px) {
+  .content-about {
+    grid-column: 2 / 4;
+  }
+}
+.content-about h2,
+.content-about p {
+  margin-bottom: 1rem;
+}
+
+/* MODELS */
+
+.model {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  margin-bottom: 5rem;
+}
+
+.model:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .model {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.container-model {
+  padding: 5rem;
+  background-color: var(--blanco);
+}
+
+.basic {
+  background-image: url(../img/imagen_31.jpg);
+}
+
+@media (min-width: 768px) {
+  .basic {
+    background-position: top right;
+  }
+  .basic .container-model {
+    grid-row: 2/3;
+    padding: 2rem 2rem 2rem 0;
+  }
+}
+
+.premier {
+  background-image: url(../img/imagen_32.jpg);
+}
+
+@media (min-width: 768px) {
+  .premier {
+    background-position: top left;
+  }
+  .premier .container-model {
+    grid-column: 2/3;
+    padding: 2rem;
+  }
+}
+
+.elite {
+  background-image: url(../img/imagen_25.jpg);
+}
+
+@media (min-width: 768px) {
+  .elite {
+    background-position: top right;
+  }
+  .elite .container-model {
+    grid-column: 1/2;
+    padding: 2rem 2rem 2rem 0;
+  }
+}
+
+.premier2 {
+  background-image: url(../img/imagen_15.jpg);
+}
+
+@media (min-width: 768px) {
+  .premier2 {
+    background-position: top left;
+  }
+  .premier2 .container-model {
+    grid-column: 2/3;
+    padding: 2rem;
+  }
+}
+
+/* GALERIA */
+.galery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.galery img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.galery .image:nth-child(2) {
+  grid-column: 2/3;
+  grid-row: 1/3;
+} 
+
+.galery .image:nth-child(3) {
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
+
+.galery .image:nth-child(6) {
+  grid-row: 2/4;
+}
+
+
+@media (min-width: 768px) { 
+  .galery{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .galery .image:nth-child(2) {
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+
+  .galery .image:nth-child(6) {
+    grid-column: 3/4;
+    grid-row: 1/3;
+  }
+  
+
+  .galery .image:nth-child(3) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+}
+
+/* FOOTER */
+.footer{
+  height: 50rem;
+  background-image: url(../img/footer_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: var(--blanco);
+}
+
+.copyright{
+  background-color: var(--negro);
+  text-align: center;
+  margin: 5rem 0 0 0;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* NOSOTROS */
+.nosotros {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  margin-bottom: 5rem;
+}
+
+.nosotros:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .nosotros {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.container-nosotros {
+  padding: 5rem;
+  background-color: var(--blanco);
+}
+
+.text1 {
+  background-image: url(../img/imagecasa.jpg);
+}
+
+@media (min-width: 768px) {
+  .text1 {
+    background-position: top right;
+  }
+  .text1 .container-nosotros {
+    grid-row: 2/3;
+    padding: 2rem 2rem 2rem 0;
+  }
+}
+
+.text2 {
+  background-image: url(../img/constructores.jpeg);
+}
+
+@media (min-width: 768px) {
+  .text2 {
+    background-position: top left;
+  }
+  .text2 .container-nosotros {
+    grid-column: 2/3;
+    padding: 2rem;
+  }
+}
+
+.text3 {
+  background-image: url(../img/ecoamigable.jpg);
+}
+
+@media (min-width: 768px) {
+  .text3 {
+    background-position: top right;
+  }
+  .text3 .container-nostros {
+    grid-column: 1/2;
+    padding: 2rem 2rem 2rem 0;
+  }
+}
+
+.text4 {
+  background-image: url(../img/modelo_elite.jpg);
+}
+
+@media (min-width: 768px) {
+  .text4 {
+    background-position: top left;
+  }
+  .text4 .container-nosotros {
+    grid-column: 2/3;
+    padding: 2rem;
+  }
+}
+
+.text5 {
+  background-image: url(../img/ecoamigable.jpg);
+}
+
+@media (min-width: 768px) {
+  .text5 {
+    background-position: top right;
+  }
+  .text5 .container-nostros {
+    grid-column: 1/2;
+    padding: 2rem 2rem 2rem 0;
+  }
+}
+
+/* inicio formulario */
+.form-section {
+  display: none;
+}
+.formulario{
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.formulario input{
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 1rem;
+}
+.category{
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+select{
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 1rem;
+}
+/* inicio de los checkbox */
+.checkbox-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-group .checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin-right: 5px;
+}
+
+.checkbox-group input[type="checkbox"]:checked + .checkmark {
+  background-color: #000;
+  border-color: #000;
+}
+
+/* fin checkbox */
+
+.fechas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;       /* numero de columnas */
+  gap: 10px;      /* espacio entre columnas */
+}
+textarea{
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 1rem;
+}
+.tit-frm{
+  font-size:1.8rem;
+  font-family:"Raleway", sans-serif ;
+}
+/* boton final */
+.container-button{
+  display: grid;
+  grid-template-columns:1fr;
+  padding-left: 198px;
+}
+.btn-form{
+  width: 60%;
+  height: 3.5rem;
+  border-radius: 1rem;
+  background-color: #2953FF;
+  border-color: #2953FF;
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+/* inicio acordeon en vista admin */
+.container-acordeon {
+  width:80%;
+  padding-left: 20%;
+  padding-top: 5%;
+}
+.grid__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #aaa;
+  min-height: 100px;
+  font-size: 2em;
+  color: inherit;
+  text-decoration: none;
+  background: #ddd;
+  
+  &:focus + .grid__description {
+    max-height: 200px;
+    transition: max-height 0.4s ease-in;
+  }
+}
+
+.grid__description {
+  max-height: 0;
+  overflow: hidden;
+  background: white;
+  transition: max-height 0.15s ease-in;
+}
+.grid__description div{
+  padding: 2em;
+  box-shadow: inset 0 0 2px #000;
+}
+.detalle{
+  display: grid;
+  grid-template-columns: 1fr 1fr;       /* numero de columnas */
+  gap: 10px;      /* espacio entre columnas */
+  border: none;
+}

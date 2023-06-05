@@ -1,7 +1,7 @@
 @{
     ViewData["Title"] = "Contacto";
 }
-<section class="container">
+<section class="container" style="padding-top: 5rem;">
     <h3 style="text-align:center;">Contáctanos</h3>
     <div class="container details-contacto">
         <div>
@@ -29,9 +29,9 @@
 <section class="container formulario">
     <div class="info-contacto">
         <h3>Información de contacto</h3><br>
-        <label class="tit-frm">Nombres</label><br>
+        <label class="tit-frm">Nombre Completo</label><br>
         <input type="text" name="nombres"><br>
-        <label class="tit-frm">Apellidos</label><br>
+        <label class="tit-frm">Compañía o entidad</label><br>
         <input type="text" name="apellidos"><br>
         <label class="tit-frm">E-mail</label><br>
         <input type="text" name="email"><br>
@@ -43,408 +43,82 @@
 
     <div id="container category">
         <h3>Tipo de proyecto</h3>
-        <select name="category" id="category-select">
-            <option value="0"></option>
-            <option value="1">Casas</option>
-            <option value="2">Carreteras</option>
-            <option value="3">Edificios</option>
-            <option value="4">Puentes</option>
-        </select><br><br><br>
+        <div class="checkbox-group2">
+        <label>
+            <input type="checkbox" name="option1" value="1">
+            <span class="checkmark"></span>
+            Autopistas de peajes
+        </label>
+        <label>
+            <input type="checkbox" name="option1" value="2">
+            <span class="checkmark"></span>
+            Carreteras nacionales
+        </label>
+        <label>
+            <input type="checkbox" name="option1" value="3">
+            <span class="checkmark"></span>
+            Carreteras rurales
+        </label>
+        <label>
+            <input type="checkbox" name="option1" value="4">
+            <span class="checkmark"></span>
+            Carreteras urbanas
+        </label>
+        <br><br><br>
+        </div>
     </div>
-    <div id="casas-form" class="form-section">
-        <h3>Detalles del proyecto</h3><br>
-        <label class="tit-frm">Tipo de proyecto</label><br>
+    <h3>Detalles del proyecto</h3><br>
+        <label class="tit-frm">Ubicación exacta del proyecto</label><br>
+        <input type="text" name="ubicacion">
+        <label class="tit-frm">Longitud total en kilómetros</label><br>
+        <input type="number" name="longitud">
+        <label class="tit-frm">Cantidad de carriles</label><br>
+        <input type="number" name="qcarriles"><br>
+        <label class="tit-frm">Velocidad máxima deseada</label><br>
+        <input type="number" name="velocidad">
+        <label>Estimación del tráfico diario promedio (VPD)</label>
+        <input type="number" name="vpd">
+        <div class="fechas">
+            <div class="col">
+                <label class="tit-frm">Fecha inicio</label>
+                <input type="date" name="fechaInicio">
+            </div>
+            <div class="col">
+                <label class="tit-frm">Fecha límite</label>
+                <input type="date" name="fechaLimite">
+            </div>
+        </div><br><br><br>
+    <h3>Requisitos técnicos</h3>
+        <label class="tit-frm">Diseño de intercambiadores</label>
+        <div class="tipo_i">
+            Tipo diamante: 
+            <input type="number" name="i_diamante">
+            Tipo trebol: 
+            <input type="number" name="i_trebol">
+            Tipo tunel: 
+            <input type="number" name="i_tunel">
+            Tipo empalme:
+            <input type="number" name="i_empal">
+        </div>
+        <label class="tit-frm">Requerimiento de iluminación y Señalización</label>
         <div class="checkbox-group">
         <label>
             <input type="checkbox" name="option1" value="1">
             <span class="checkmark"></span>
-            Residencial
+            Sí
         </label>
         <label>
             <input type="checkbox" name="option2" value="2">
             <span class="checkmark"></span>
-            Comercial
-        </label>
-        <label>
-            <input type="checkbox" name="option3" value="3">
-            <span class="checkmark"></span>
-            Remodelación
+            No
         </label>
         </div>
-        <label class="tit-frm">Ubicación del proyecto</label><br>
-        <input type="text" name="direccionProy">
-        <label class="tit-frm">Tamaño del proyecto en m<sup>2</sup></label><br>
-        <input type="number" name="tamaño"><br>
-        <label class="tit-frm">Descripcion breve del proyecto</label><br>
-        <textarea name="descripcion"></textarea>
-        <div class="fechas">
-            <div class="col">
-                <label class="tit-frm">Fecha inicio</label>
-                <input type="date" name="fechaInicio">
-            </div>
-            <div class="col">
-                <label class="tit-frm">Fecha límite</label>
-                <input type="date" name="fechaLimite">
-            </div>
-        </div><br><br><br>
-        <h3>Características y servicios requeridos</h3>
-        <label class="tit-frm">Número de habitaciones / espacios</label>
-        <input type="number" name="qespacios">
-        <label class="tit-frm">Número de baños</label>
-        <input type="number" name="qbaños">
-        <label class="tit-frm">Garaje o estacionamiento</label>
-        <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Sí
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                No
-            </label>
-        </div>
-        <label class="tit-frm">Áreas exteriores</label>
-        <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Jardín
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Patio
-            </label>
-            <label>
-                <input type="checkbox" name="option3" value="3">
-                <span class="checkmark"></span>
-                Piscina
-            </label>
-        </div>
-        <label class="tit-frm">Servicios adicionales</label>
-        <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Electricidad
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Fontanería
-            </label>
-            <label>
-                <input type="checkbox" name="option3" value="3">
-                <span class="checkmark"></span>
-                Climatización
-            </label>
-        </div>
-    </div>
-    @* carreteras *@
-    <div id="carreteras-form" class="form-section">
-        <h3>Detalles del proyecto</h3><br>
-        <label class="tit-frm">Ubicación del proyecto</label><br>
-        <input type="text" name="direccionProy">
-        <label class="tit-frm">Longitud aproximada de la carretera en kilometros<sup>2</sup></label><br>
-        <input type="number" name="tamaño"><br>
-        <label class="tit-frm">Descripcion breve del proyecto</label><br>
-        <textarea name="descripcion"></textarea>
-        <div class="fechas">
-            <div class="col">
-                <label class="tit-frm">Fecha inicio</label>
-                <input type="date" name="fechaInicio">
-            </div>
-            <div class="col">
-                <label class="tit-frm">Fecha límite</label>
-                <input type="date" name="fechaLimite">
-            </div>
-        </div><br><br><br>
-        <h3>Características y servicios requeridos</h3>
-        <label>Tipo de carretera</label>
-                <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Autopista
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Carretera rural
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Carretera urbana
-            </label>
-        </div>
-        <label class="tit-frm">Número de carriles</label>
-        <input type="number" name="carriles">
-        <label class="tit-frm">Ancho</label>
-        <input type="number" name="ancho">
-        <label class="tit-frm">Especificaciones</label>
-        <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Pasos elevados
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Puentes
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Viaductos
-            </label>
-        </div>
-        <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Intersecciones
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Rampas
-            </label>
-            <label>
-                <input type="checkbox" name="option3" value="3">
-                <span class="checkmark"></span>
-                Salidas
-            </label>
-        </div>
-        <label class="tit-frm">Servicios adicionales</label>
-        <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Señalizacion
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Sistema de iluminación
-            </label>
-            <label>
-                <input type="checkbox" name="option3" value="3">
-                <span class="checkmark"></span>
-                Acabados
-            </label>
-        </div>
-    </div>
-@* edificios *@
-    <div id="edificios-form" class="form-section">
-    <h3>Detalles del proyecto</h3><br>
-        <label class="tit-frm">Ubicación del proyecto</label><br>
-        <input type="text" name="direccionProy">
-        <label class="tit-frm">Tipo de edificio</label><br>
-       <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Residencial
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Comercial
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Industrial
-            </label>
-        </div>
-        <label class="tit-frm">Tamaño aproximado del edificio en m<sup>2</sup></label><br>
-        <input type="number" name="tamaño"><br>
-        <label class="tit-frm">Descripcion breve del proyecto</label><br>
-        <textarea name="descripcion"></textarea>
-        <div class="fechas">
-            <div class="col">
-                <label class="tit-frm">Fecha inicio</label>
-                <input type="date" name="fechaInicio">
-            </div>
-            <div class="col">
-                <label class="tit-frm">Fecha límite</label>
-                <input type="date" name="fechaLimite">
-            </div>
-        </div><br><br><br>
-        <h3>Características y servicios requeridos</h3>
-        <label>Número de pisos o niveles</label>
-        <input type="number" name="pisos">
-        <label>Distribucion de espacios</label>
-        <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Oficinas
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Apartamentos
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Locales comerciales
-            </label>
-        </div>
-        <label class="tit-frm">Número de habitaciones</label>
-        <input type="number" name="qespacios">
-        <label class="tit-frm">Número de baños</label>
-        <input type="number" name="qbaños">
-        <label>Otras áreas requeridas</label>
-        <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Garaje
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Jardin
-            </label>
-            <label>
-                <input type="checkbox" name="option3" value="3">
-                <span class="checkmark"></span>
-                Piscina
-            </label>
-        </div>
-        <label class="tit-frm">Características especiales del edificio</label>
-        <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Ascensores
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Sistemas de climatización
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Sistemas de seguridad
-            </label>
-        </div>
-        <label class="tit-frm">Servicios adicionales</label>
-        <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Servicio de electricidad
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Fontaneria
-            </label>
-            <label>
-                <input type="checkbox" name="option3" value="3">
-                <span class="checkmark"></span>
-                Mantenimiento
-            </label>
-        </div>
-    </div>
-@* puentes *@
-    <div id="puentes-form" class="form-section">
-        <h3>Detalles del proyecto</h3><br>
-        <label class="tit-frm">Ubicación del proyecto</label><br>
-        <input type="text" name="direccionProy">
-        <label>Tipo de puente</label>
-        <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Puente peatonal
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Puente vehicular
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Puente ferroviario
-            </label>
-        </div>
-        <label class="tit-frm">Longitud aproximada del puente en metros</label><br>
-        <input type="number" name="tamaño"><br>
-        <label class="tit-frm">Descripcion breve del proyecto</label><br>
-        <textarea name="descripcion"></textarea>
-        <div class="fechas">
-            <div class="col">
-                <label class="tit-frm">Fecha inicio</label>
-                <input type="date" name="fechaInicio">
-            </div>
-            <div class="col">
-                <label class="tit-frm">Fecha límite</label>
-                <input type="date" name="fechaLimite">
-            </div>
-        </div><br><br><br>
-        <h3>Características y servicios requeridos</h3>
-        <label>Tipo de estructura del puente</label>
-                <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Arco
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Viga
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Suspención
-            </label>
-        </div>
-        <label class="tit-frm">Capacidad de carga requerida</label>
-        <input type="number" name="carga">
-        <label class="tit-frm">Ancho</label>
-        <input type="number" name="ancho">
-        <label class="tit-frm">Altura</label>
-        <input type="number" name="altura">
-        <label>Número de carriles o espacio peatonal</label>
-        <input type="number" name="espacio">
-        <label class="tit-frm">Especificaciones</label>
-        <div class="checkbox-group">
-            <label>
-                <input type="checkbox" name="option1" value="1">
-                <span class="checkmark"></span>
-                Sistema de iluminación
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Señalización
-            </label>
-            <label>
-                <input type="checkbox" name="option2" value="2">
-                <span class="checkmark"></span>
-                Consideraciones geotécnicas o hidraulicas
-            </label>
-        </div>
-    </div>
 
-    @* fin de las condiciones *@
     <h3>Presupuesto y financiamiento</h3>
     <label class="tit-frm">Presupuesto estimado para el proyecto</label>
     <input type="number" name="presupuesto">
     <label class="tit-frm">Fuente de financiamiento</label>
-    <div class="checkbox-group">
+    <div class="checkbox-group3">
         <label>
             <input type="checkbox" name="option1" value="1">
             <span class="checkmark"></span>
@@ -469,10 +143,8 @@
             No
         </label>
     </div><br><br><br>
-    <h3>Requisitos especiales</h3>
-    <textarea name="requisitos"></textarea><br><br><br>
     <div class="container-button">
-        <button class="btn btn-form">Enviar formulario</button>
+        <button class="btn-form">Enviar solicitud</button>
     </div>
     
 

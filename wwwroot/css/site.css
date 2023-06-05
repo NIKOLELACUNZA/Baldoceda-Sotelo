@@ -82,8 +82,8 @@ img {
 
 /** Header */
 .header {
-  min-height: 60rem;
-  background-image: url(../img/hero.jpg);
+  min-height: 73rem;
+  background-image: url(../img/carretera.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -259,7 +259,7 @@ img {
 }
 
 .basic {
-  background-image: url(../img/imagen_31.jpg);
+  background-image: url(../img/peaje.png);
 }
 
 @media (min-width: 768px) {
@@ -273,7 +273,7 @@ img {
 }
 
 .premier {
-  background-image: url(../img/imagen_32.jpg);
+  background-image: url(../img/nacionales.png);
 }
 
 @media (min-width: 768px) {
@@ -287,7 +287,7 @@ img {
 }
 
 .elite {
-  background-image: url(../img/imagen_25.jpg);
+  background-image: url(../img/rural.png);
 }
 
 @media (min-width: 768px) {
@@ -366,7 +366,7 @@ img {
 /* FOOTER */
 .footer{
   height: 50rem;
-  background-image: url(../img/footer_bg.jpg);
+  background-image: url(../img/carretera.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -409,7 +409,7 @@ img {
 }
 
 .text1 {
-  background-image: url(../img/imagecasa.jpg);
+  background-image: url(../img/11111.png);
 }
 
 @media (min-width: 768px) {
@@ -423,7 +423,7 @@ img {
 }
 
 .text2 {
-  background-image: url(../img/constructores.jpeg);
+  background-image: url(../img/11112.png);
 }
 
 @media (min-width: 768px) {
@@ -437,7 +437,7 @@ img {
 }
 
 .text3 {
-  background-image: url(../img/ecoamigable.jpg);
+  background-image: url(../img/11113.png);
 }
 
 @media (min-width: 768px) {
@@ -445,34 +445,6 @@ img {
     background-position: top right;
   }
   .text3 .container-nostros {
-    grid-column: 1/2;
-    padding: 2rem 2rem 2rem 0;
-  }
-}
-
-.text4 {
-  background-image: url(../img/modelo_elite.jpg);
-}
-
-@media (min-width: 768px) {
-  .text4 {
-    background-position: top left;
-  }
-  .text4 .container-nosotros {
-    grid-column: 2/3;
-    padding: 2rem;
-  }
-}
-
-.text5 {
-  background-image: url(../img/ecoamigable.jpg);
-}
-
-@media (min-width: 768px) {
-  .text5 {
-    background-position: top right;
-  }
-  .text5 .container-nostros {
     grid-column: 1/2;
     padding: 2rem 2rem 2rem 0;
   }
@@ -533,6 +505,69 @@ select{
   border-color: #000;
 }
 
+
+
+.checkbox-group2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.checkbox-group2 label {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.checkbox-group2 input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-group2 .checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin-right: 5px;
+}
+
+.checkbox-group2 input[type="checkbox"]:checked + .checkmark {
+  background-color: #000;
+  border-color: #000;
+}
+
+
+
+.checkbox-group3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.checkbox-group3 label {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.checkbox-group3 input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-group3 .checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin-right: 5px;
+}
+
+.checkbox-group3 input[type="checkbox"]:checked + .checkmark {
+  background-color: #000;
+  border-color: #000;
+}
 /* fin checkbox */
 
 .fechas{
@@ -548,6 +583,13 @@ textarea{
 .tit-frm{
   font-size:1.8rem;
   font-family:"Raleway", sans-serif ;
+}
+
+/* tipo de intercambiadores */
+.tipo_i{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 /* boton final */
 .container-button{
@@ -617,4 +659,18 @@ iframe{
 .grid__description div{
   padding: 2em;
   box-shadow: inset 0 0 2px #000;
+}
+.mision-vision{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.mision-vision div{
+  padding: 10rem 10rem 10rem 10rem;
+}
+.mision-vision p{
+  text-align: justify;
+}
+.mision-vision h3{
+  text-align: center;
 }

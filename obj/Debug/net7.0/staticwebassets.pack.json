@@ -17,6 +17,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\11111.png",
+      "PackagePath": "staticwebassets\\img\\11111.png"
+    },
+    {
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\11112.png",
+      "PackagePath": "staticwebassets\\img\\11112.png"
+    },
+    {
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\11113.png",
+      "PackagePath": "staticwebassets\\img\\11113.png"
+    },
+    {
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\carretera.png",
+      "PackagePath": "staticwebassets\\img\\carretera.png"
+    },
+    {
       "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\constructores.jpeg",
       "PackagePath": "staticwebassets\\img\\constructores.jpeg"
     },
@@ -45,64 +61,68 @@
       "PackagePath": "staticwebassets\\img\\imagecasa.jpg"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_1.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_1.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_1.png",
+      "PackagePath": "staticwebassets\\img\\imagen_1.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_10.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_10.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_10.png",
+      "PackagePath": "staticwebassets\\img\\imagen_10.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_11.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_11.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_11.png",
+      "PackagePath": "staticwebassets\\img\\imagen_11.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_12.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_12.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_12.png",
+      "PackagePath": "staticwebassets\\img\\imagen_12.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_13.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_13.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_13.png",
+      "PackagePath": "staticwebassets\\img\\imagen_13.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_14.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_14.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_14.png",
+      "PackagePath": "staticwebassets\\img\\imagen_14.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_15.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_15.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_15.png",
+      "PackagePath": "staticwebassets\\img\\imagen_15.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_16.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_16.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_16.png",
+      "PackagePath": "staticwebassets\\img\\imagen_16.png"
     },
     {
       "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_17.jpg",
       "PackagePath": "staticwebassets\\img\\imagen_17.jpg"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_18.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_18.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_18.png",
+      "PackagePath": "staticwebassets\\img\\imagen_18.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_19.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_19.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_19.png",
+      "PackagePath": "staticwebassets\\img\\imagen_19.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_2.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_2.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_2.png",
+      "PackagePath": "staticwebassets\\img\\imagen_2.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_20.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_20.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_20.png",
+      "PackagePath": "staticwebassets\\img\\imagen_20.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_21.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_21.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_21.png",
+      "PackagePath": "staticwebassets\\img\\imagen_21.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_23.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_23.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_22.png",
+      "PackagePath": "staticwebassets\\img\\imagen_22.png"
+    },
+    {
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_23.png",
+      "PackagePath": "staticwebassets\\img\\imagen_23.png"
     },
     {
       "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_24.png",
@@ -125,12 +145,12 @@
       "PackagePath": "staticwebassets\\img\\imagen_28.jpg"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_29.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_29.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_29.png",
+      "PackagePath": "staticwebassets\\img\\imagen_29.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_3.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_3.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_3.png",
+      "PackagePath": "staticwebassets\\img\\imagen_3.png"
     },
     {
       "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_30.jpg",
@@ -145,28 +165,28 @@
       "PackagePath": "staticwebassets\\img\\imagen_32.jpg"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_4.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_4.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_4.png",
+      "PackagePath": "staticwebassets\\img\\imagen_4.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_5.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_5.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_5.png",
+      "PackagePath": "staticwebassets\\img\\imagen_5.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_6.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_6.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_6.png",
+      "PackagePath": "staticwebassets\\img\\imagen_6.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_7.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_7.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_7.png",
+      "PackagePath": "staticwebassets\\img\\imagen_7.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_8.jpeg",
-      "PackagePath": "staticwebassets\\img\\imagen_8.jpeg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_8.png",
+      "PackagePath": "staticwebassets\\img\\imagen_8.png"
     },
     {
-      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_9.jpg",
-      "PackagePath": "staticwebassets\\img\\imagen_9.jpg"
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_9.png",
+      "PackagePath": "staticwebassets\\img\\imagen_9.png"
     },
     {
       "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\modelo_basico.jpg",
@@ -181,8 +201,24 @@
       "PackagePath": "staticwebassets\\img\\modelo_premier.jpg"
     },
     {
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\nacionales.png",
+      "PackagePath": "staticwebassets\\img\\nacionales.png"
+    },
+    {
       "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\nosotros.jpg",
       "PackagePath": "staticwebassets\\img\\nosotros.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\peaje.png",
+      "PackagePath": "staticwebassets\\img\\peaje.png"
+    },
+    {
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\puente.png",
+      "PackagePath": "staticwebassets\\img\\puente.png"
+    },
+    {
+      "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\rural.png",
+      "PackagePath": "staticwebassets\\img\\rural.png"
     },
     {
       "Id": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\slogan.jpg",

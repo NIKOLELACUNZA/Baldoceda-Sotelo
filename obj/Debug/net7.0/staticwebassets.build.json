@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7UgIbfE+AOMNsGHKNwLclPE5ilhw3qg1FKwlIKuXvCI=",
+  "Hash": "NHfuzvKquUkte4IO3IwOWhE7/o11ueT+xxQF3UMhTxc=",
   "Source": "proyIS",
   "BasePath": "_content/proyIS",
   "Mode": "Default",
@@ -1122,6 +1122,74 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\11111.png",
+      "SourceId": "proyIS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
+      "BasePath": "_content/proyIS",
+      "RelativePath": "img/11111.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\11111.png"
+    },
+    {
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\11112.png",
+      "SourceId": "proyIS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
+      "BasePath": "_content/proyIS",
+      "RelativePath": "img/11112.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\11112.png"
+    },
+    {
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\11113.png",
+      "SourceId": "proyIS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
+      "BasePath": "_content/proyIS",
+      "RelativePath": "img/11113.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\11113.png"
+    },
+    {
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\carretera.png",
+      "SourceId": "proyIS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
+      "BasePath": "_content/proyIS",
+      "RelativePath": "img/carretera.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\carretera.png"
+    },
+    {
       "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\constructores.jpeg",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
@@ -1241,12 +1309,12 @@
       "OriginalItemSpec": "wwwroot\\img\\imagecasa.jpg"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_1.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_1.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_1.jpg",
+      "RelativePath": "img/imagen_1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,15 +1323,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_1.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_1.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_10.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_10.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_10.jpg",
+      "RelativePath": "img/imagen_10.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1272,15 +1340,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_10.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_10.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_11.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_11.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_11.jpg",
+      "RelativePath": "img/imagen_11.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1289,15 +1357,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_11.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_11.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_12.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_12.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_12.jpg",
+      "RelativePath": "img/imagen_12.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1306,15 +1374,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_12.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_12.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_13.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_13.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_13.jpg",
+      "RelativePath": "img/imagen_13.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1323,15 +1391,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_13.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_13.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_14.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_14.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_14.jpg",
+      "RelativePath": "img/imagen_14.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1340,15 +1408,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_14.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_14.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_15.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_15.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_15.jpg",
+      "RelativePath": "img/imagen_15.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1357,15 +1425,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_15.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_15.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_16.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_16.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_16.jpg",
+      "RelativePath": "img/imagen_16.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1374,7 +1442,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_16.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_16.png"
     },
     {
       "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_17.jpg",
@@ -1394,12 +1462,12 @@
       "OriginalItemSpec": "wwwroot\\img\\imagen_17.jpg"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_18.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_18.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_18.jpg",
+      "RelativePath": "img/imagen_18.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1408,15 +1476,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_18.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_18.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_19.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_19.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_19.jpg",
+      "RelativePath": "img/imagen_19.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1425,15 +1493,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_19.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_19.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_2.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_2.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_2.jpg",
+      "RelativePath": "img/imagen_2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1442,15 +1510,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_2.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_2.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_20.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_20.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_20.jpg",
+      "RelativePath": "img/imagen_20.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1459,15 +1527,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_20.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_20.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_21.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_21.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_21.jpg",
+      "RelativePath": "img/imagen_21.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1476,15 +1544,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_21.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_21.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_23.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_22.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_23.jpg",
+      "RelativePath": "img/imagen_22.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1493,7 +1561,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_23.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_22.png"
+    },
+    {
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_23.png",
+      "SourceId": "proyIS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
+      "BasePath": "_content/proyIS",
+      "RelativePath": "img/imagen_23.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\imagen_23.png"
     },
     {
       "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_24.png",
@@ -1581,12 +1666,12 @@
       "OriginalItemSpec": "wwwroot\\img\\imagen_28.jpg"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_29.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_29.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_29.jpg",
+      "RelativePath": "img/imagen_29.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1595,15 +1680,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_29.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_29.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_3.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_3.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_3.jpg",
+      "RelativePath": "img/imagen_3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1612,7 +1697,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_3.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_3.png"
     },
     {
       "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_30.jpg",
@@ -1666,12 +1751,12 @@
       "OriginalItemSpec": "wwwroot\\img\\imagen_32.jpg"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_4.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_4.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_4.jpg",
+      "RelativePath": "img/imagen_4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1680,15 +1765,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_4.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_4.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_5.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_5.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_5.jpg",
+      "RelativePath": "img/imagen_5.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1697,15 +1782,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_5.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_5.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_6.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_6.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_6.jpg",
+      "RelativePath": "img/imagen_6.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1714,15 +1799,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_6.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_6.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_7.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_7.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_7.jpg",
+      "RelativePath": "img/imagen_7.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1731,15 +1816,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_7.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_7.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_8.jpeg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_8.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_8.jpeg",
+      "RelativePath": "img/imagen_8.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1748,15 +1833,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_8.jpeg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_8.png"
     },
     {
-      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_9.jpg",
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\imagen_9.png",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
       "BasePath": "_content/proyIS",
-      "RelativePath": "img/imagen_9.jpg",
+      "RelativePath": "img/imagen_9.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1765,7 +1850,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imagen_9.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\imagen_9.png"
     },
     {
       "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\modelo_basico.jpg",
@@ -1819,6 +1904,23 @@
       "OriginalItemSpec": "wwwroot\\img\\modelo_premier.jpg"
     },
     {
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\nacionales.png",
+      "SourceId": "proyIS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
+      "BasePath": "_content/proyIS",
+      "RelativePath": "img/nacionales.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\nacionales.png"
+    },
+    {
       "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\nosotros.jpg",
       "SourceId": "proyIS",
       "SourceType": "Discovered",
@@ -1834,6 +1936,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\nosotros.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\peaje.png",
+      "SourceId": "proyIS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
+      "BasePath": "_content/proyIS",
+      "RelativePath": "img/peaje.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\peaje.png"
+    },
+    {
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\puente.png",
+      "SourceId": "proyIS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
+      "BasePath": "_content/proyIS",
+      "RelativePath": "img/puente.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\puente.png"
+    },
+    {
+      "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\rural.png",
+      "SourceId": "proyIS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\",
+      "BasePath": "_content/proyIS",
+      "RelativePath": "img/rural.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\rural.png"
     },
     {
       "Identity": "C:\\Users\\NIKOLE\\Desktop\\proyIS\\wwwroot\\img\\slogan.jpg",
